@@ -1,18 +1,27 @@
-### Hi there 👋
+# Hi, I'm Francesco Cheema
 
-<!--
-**FrancescoCheema/FrancescoCheema** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+IT professional transitioning into DevOps and cloud infrastructure, with hands-on experience building automated AWS and Kubernetes environments.
 
-Here are some ideas to get you started:
+## Featured project
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [Fleet GPS Monitoring](https://github.com/FrancescoCheema/Fleet-GPS-Monitoring)
+
+An end-to-end DevOps project using AWS, Terraform, Jenkins, Docker, K3s, Prometheus and Grafana.
+
+## Certifications
+
+- AWS Certified Solutions Architect – Associate
+- Certified Kubernetes Administrator
+- HashiCorp Terraform Associate
+- Red Hat Certified System Administrator
+- Microsoft Certified: Azure Administrator Associate
+
+## Current focus
+
+- DevOps engineering
+- Cloud infrastructure
+- Kubernetes
+- Infrastructure as Code
+- Observability
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FrancescoCheema&theme=radical)
