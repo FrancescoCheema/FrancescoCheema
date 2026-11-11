@@ -1,34 +1,38 @@
 # Hi, I'm Francesco Cheema
 
-IT professional with experience supporting enterprise environments and automating operational tasks, currently transitioning into DevOps and cloud infrastructure.
+**DevOps & Cloud Engineer** in Vancouver, BC. I build and operate infrastructure that keeps running when nobody is watching: CI/CD, containers, Kubernetes, infrastructure as code and observability on AWS.
 
-I use personal projects to build hands-on experience with AWS, Kubernetes, Infrastructure as Code, CI/CD and observability.
+**Certified:** CKA · AWS Solutions Architect – Associate · Terraform Associate · RHCSA · Azure Administrator (AZ-104)
 
-## Featured project
+## Featured projects
 
-### [Fleet GPS Monitoring](https://github.com/FrancescoCheema/Fleet-GPS-Monitoring)
+### [GroundsOps AI](https://github.com/FrancescoCheema/groundsops-ai-showcase): a SaaS I built and run
 
-An end-to-end DevOps and cloud infrastructure project built with AWS, Terraform, Jenkins, Docker, K3s, Prometheus and Grafana.
+Landscaping companies photograph a yard, paint the area to change, and get an AI concept, a calibrated material estimate, a quote, a crew schedule and an invoice in one workspace.
 
-The project includes automated infrastructure provisioning, container vulnerability scanning, versioned image publishing, Kubernetes deployment, application monitoring and Terraform-based teardown.
+- AWS infrastructure in Terraform (Cognito, S3, compute in ca-central-1)
+- 8 GitHub Actions pipelines: tests, Playwright E2E, Trivy, Gitleaks and dependency audits, staging deploys, smoke tests
+- Encrypted database backups with restore verification, systemd monitoring and AWS alarms
+- Multi-tenant FastAPI + PostgreSQL backend, Next.js frontend, Stripe billing, 110 automated backend tests
 
-## Certifications
+### [Fleet GPS Monitoring](https://github.com/FrancescoCheema/Fleet-GPS-Monitoring): Kubernetes delivery pipeline
 
-* AWS Certified Solutions Architect – Associate
-* Certified Kubernetes Administrator (CKA)
-* HashiCorp Certified: Terraform Associate
-* Red Hat Certified System Administrator (RHCSA)
-* Microsoft Certified: Azure Administrator Associate
+Two services deployed to kind and AWS-hosted K3s through a seven-stage Jenkins pipeline: image builds, Trivy scanning, cluster provisioning, secret injection, rollout validation and health checks. Terraform for EC2, IAM, ECR and S3 remote state; Prometheus, Grafana and Alertmanager for monitoring.
 
-## Current focus
+### More projects
 
-* DevOps engineering
-* Cloud infrastructure
-* Kubernetes
-* Infrastructure as Code
-* CI/CD automation
-* Observability
+| Project | What it shows |
+| --- | --- |
+| [Self-Healing EC2 Auto-Remediation](https://github.com/FrancescoCheema/Self-Healing-EC2-Auto-Remediation-System) | CloudWatch, Lambda, SNS and Auto Scaling replace unhealthy instances in under 60 seconds |
+| [Real-Time GitOps Dashboard](https://github.com/FrancescoCheema/Real-time-Gitops-Dashboard) | GitHub webhooks turned into Prometheus metrics and Grafana dashboards |
 
-## Connect with me
+## Toolbox
 
-* [LinkedIn](https://www.linkedin.com/in/francesco-cheema-18959b227/)
+- **Cloud & IaC:** AWS · Azure · Terraform · CloudFormation · Ansible
+- **Containers & delivery:** Docker · Kubernetes · K3s · Helm · GitHub Actions · Jenkins
+- **Observability & security:** Prometheus · Grafana · CloudWatch · Trivy · Gitleaks
+- **Systems & code:** Linux (RHEL) · Bash · Python · PowerShell · PostgreSQL
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/francesco-cheema-18959b227/) · Happy to talk DevOps, cloud and platform engineering.
