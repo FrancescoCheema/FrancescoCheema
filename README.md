@@ -6,14 +6,16 @@
 
 ## Featured projects
 
-### [GroundsOps AI](https://github.com/FrancescoCheema/groundsops-ai-showcase): a SaaS I built and run
+### [GroundsOps AI](https://github.com/FrancescoCheema/groundsops-ai-showcase): landscaping operations app on AWS
 
-Landscaping companies photograph a yard, paint the area to change, and get an AI concept, a calibrated material estimate, a quote, a crew schedule and an invoice in one workspace.
+**Live demo: [demo.groundsopsai.ca](https://demo.groundsopsai.ca)**, no sign-up needed (click *Explore the live demo*; it resets nightly).
 
-- AWS infrastructure in Terraform (Cognito, S3, compute in ca-central-1)
-- 8 GitHub Actions pipelines: tests, Playwright E2E, Trivy, Gitleaks and dependency audits, staging deploys, smoke tests
+A project that takes a landscaping company's paperwork off paper: customers, a secure file vault, PDF quotes, crew timesheets, digital invoices, and an AI design studio that shows a yard before work begins. Built and used for my family's landscaping work.
+
+- Infrastructure as code: Terraform for AWS Lightsail, Route 53 DNS, Cognito and private S3, with separate demo, staging and production environments
+- 9 GitHub Actions workflows (deploy and monitoring workflows run in a private repo): tests, Playwright E2E, Trivy, Gitleaks and dependency audits, staging deploys, smoke tests and approval-gated production deploys
 - Encrypted database backups with restore verification, systemd monitoring and AWS alarms
-- Multi-tenant FastAPI + PostgreSQL backend, Next.js frontend, Stripe billing, 110 automated backend tests
+- FastAPI + PostgreSQL backend with multi-tenant isolation, Next.js frontend, 130+ automated backend tests
 
 ### [Fleet GPS Monitoring](https://github.com/FrancescoCheema/Fleet-GPS-Monitoring): Kubernetes delivery pipeline
 
